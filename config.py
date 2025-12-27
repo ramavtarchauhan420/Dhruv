@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Jani-Music/HemaRP",
+    "https://github.com/ramavtarchauhan420/Dhruv",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -44,8 +44,8 @@ API_URL = getenv("API_URL", 'https://api2.nexgenbots.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.nexgenbots.xyz')
 API_KEY = getenv("API_KEY", "30DxNexGenBotsdc9b8a") # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Vip_Jani_OP")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Fgru4laNvJpkMGI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/promotoinhub")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/dhruvXsupport")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -83,10 +83,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/w304gc.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/zmdr1u.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/bdcf5x.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/zmdr1u.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/dqp0ai.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/42umbv.jpg"
